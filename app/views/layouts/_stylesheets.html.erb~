@@ -1,0 +1,6 @@
+<%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= stylesheet_link_tag "stylesheet/custom.css" %>
+    <%= javascript_include_tag "jquery.min.js" %>
+    <%= javascript_include_tag "jquery.orbit.min.js" %>
+    <%= csrf_meta_tags %>

@@ -1,0 +1,116 @@
+.header{
+	  /* fallback */
+  background-color: #0066FF;
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0066FF), to(#66CCFF));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #66CCFF, #0066FF);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #66CCFF, #0066FF);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #66CCFF, #0066FF);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #66CCFF, #0066FF);
+}
+
+ul.navigation{
+	padding-top: 60px;
+	list-style: none;
+  overflow: hidden;
+}
+
+ul.navigation li{
+	float: left;
+  width: 25%;
+}
+
+ul.navigation li a{
+	display: block;
+}
+
+ul.navigation li a,
+ul.navigation li a:focus,
+ul.navigation li a:visited,
+ul.navigation li a:hover,
+ul.navigation li a:active {
+  color: #FFF;
+  font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  text-decoration: none;
+ }
+
+
+ .round{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.logo{
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+
+
+#radial-center {
+  /* fallback */
+  background-color: #99CCFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#99CCFF));
+#radial-center {
+  /* fallback */
+  background-color: #99CCFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#99CCFF));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #FFFFFF, #99CCFF);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #FFFFFF, #99CCFF);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #FFFFFF, #99CCFF);
+}
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #FFFFFF, #99CCFF);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #FFFFFF, #99CCFF);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #FFFFFF, #99CCFF);
+}
+
+
+h4{
+	text-indent: 10px;
+	font-family: "Times New Roman", Arial, "MS Trebuchet", sans-serif;
+	font-size: 100%;
+
+}
+
+h5{
+	text-align: center;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 90% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+p{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}

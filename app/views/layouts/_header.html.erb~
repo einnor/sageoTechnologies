@@ -1,0 +1,76 @@
+<!--<div class="row">
+  <div class="small-2 columns"><h5>Logo goes here</h5></div>
+  <div class="small-10 columns">
+  	<nav>
+ 			<ul>
+    		<li>
+        	<a href="#"><h4>Home</h4></a>
+    		</li>
+    		<li>
+        	<a href="#"><h4>Print Design</h4></a>
+    		</li>
+    		<li>
+        	<a href="#"><h4>Web Design</h4></a>
+    		</li>
+    		<li>
+        	<a href="#"><h4>Bio</h4></a>
+    		</li>
+    		<li>
+        	<a href="#"><h4>Contact</h4></a>
+    		</li>
+  		</ul>
+		</nav>
+  </div>
+</div>-->
+
+
+<!-- Mobile nav header -->
+  <div class="row show-for-small offcanvas-toggle">
+    <div class="large-12 columns">
+      <a class="sidebar-button" id="sidebarButton" href="#sidebar">
+        <h4>Sageo Technologies</h4>
+      </a>
+    </div>
+  </div>
+  <!-- /Mobile nav header -->
+
+  <!-- Sageo topbar -->
+  <nav class="top-bar hide-for-small" data-top-bar>
+    <ul class="title-area" >
+      <!-- Title Area -->
+      <li class="name">
+        <h1><a class="#" href="#">Sageo <strong>Technologies</strong></a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section" >
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </section>
+  </nav>
+  <!-- Sageo topbar -->
+
+  <!-- Desktop header/nav -->
+  <div class="header hide-for-small">
+    <div class="row">
+      <div class="large-8 columns logo">
+        <%= image_tag "logo.jpg", :class => "round logo" %>
+
+      </div>
+      <div class="large-4 columns">
+        <ul class="navigation">
+          <li class="active" ><a href="#">Home</a></li>
+          <li class=""><a href="#">About Us</a></li>
+          <li class=""><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /Header/nav -->

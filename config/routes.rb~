@@ -1,6 +1,5 @@
 SageoTechnologies::Application.routes.draw do
-  #get "pages/home"
-  root 'pages#home'
+  get "pages/home"
   get "pages/about"
   get "pages/services"
   get "pages/clientsAndProjects"
@@ -46,7 +45,7 @@ SageoTechnologies::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-
+  
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
