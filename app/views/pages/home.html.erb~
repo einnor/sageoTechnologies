@@ -1,1 +1,93 @@
-<img src="../images/bridge1.jpg" />
+<!-- Place somewhere in the <body> of your page -->
+<div class="row">
+	<div class="small-12 columns sliderheight">
+		<div class="flexslider">
+  		<ul class="slides">
+    		<li>
+      		<img src="/assets/slider1.jpg" />
+    		</li>
+    		<li>
+      		<img src="/assets/slider2.jpg" />
+    		</li>
+    		<li>
+      		<img src="/assets/slider3.jpg" />
+    		</li>
+  		</ul>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="small-8 columns">
+		<!--The navigation goes here-->
+		<!--An Off-Canvas navigation-->
+<div class="off-canvas-wrap">
+	<div class="inner-wrap">
+		<nav class="tab-bar">
+			<section class="left-small">
+				<a class="left-off-canvas-toggle menu-icon"><span></span></a>
+			</section>
+			<section class="middle tab-bar-section">
+				<h1 class="title">Sageo Technologies</h1>
+			</section>
+		</nav>
+
+		<!--Off Canvas Menu-->
+		<aside class="left-off-canvas-menu">
+			<!--Whatever you want goes here-->
+			<ul class="off-canvas-list">
+				<li><a href="#">Who We Are</a></li>
+				<li><a href="#">Partners</a></li>
+				<li><a href="#">Services We Offer</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Ongoing Projects</a></li>
+				<li><a href="#">Company Fun Outs</a></li>
+			</ul>
+		</aside>
+
+		<!--Main Content Goes Here-->
+		<section class="main-section offCanvasContent">
+			<p>
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+					Today we will teach you how to perform port scanning with the TCP/IP Swiss Army Knife tool, netcat.
+			</p>
+		</section>
+
+
+		<!--Close the off-canvas menu-->
+		<a class="exit-off-canvas"></a>
+	</div>
+</div>
+	</div>
+	<div class="small-4 columns">
+		<!--The side bar goes here-->
+		<div class="row">
+			<div class="small-12 columns adbar round">
+				<p>Advertisements and links to social networking sites go here.</p>
+				<img src="/assets/ad1.png" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-12 columns socialbar round">
+				<h3 style="text-align: center;">Social Media</h3>
+				<hr />
+				<p>RSS</p>
+				<hr />
+				<p>Facebook</p>
+				<hr />
+				<p>Twitter</p>
+				<hr />
+				<p>Google +</p>
+				<hr />
+				<p>YouTube</p>
+			</div>
+		</div>
+	</div>
+</div>

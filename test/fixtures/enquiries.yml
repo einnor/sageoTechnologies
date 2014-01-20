@@ -1,0 +1,31 @@
+# == Schema Information
+#
+# Table name: enquiries
+#
+#  id                 :integer          not null, primary key
+#  first_name         :string(255)
+#  second_name        :string(255)
+#  email              :string(255)
+#  subject            :string(255)
+#  body               :text
+#  created_at         :datetime
+#  updated_at         :datetime
+#  telephone_number   :string(255)
+#  confirmation_email :string(255)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  first_name: MyString
+  second_name: MyString
+  email: MyString
+  subject: MyString
+  body: MyText
+
+two:
+  first_name: MyString
+  second_name: MyString
+  email: MyString
+  subject: MyString
+  body: MyText

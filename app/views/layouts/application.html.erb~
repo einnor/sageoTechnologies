@@ -13,13 +13,20 @@
 
   </head>
 
-  <body id="radial-center">
+  <body class="wrapper">
 
-		<%= render "layouts/header" %>
+  	<divid="radial-center" >
 
-    <%= yield %>
+			<%= render "layouts/header" %>
+
+    	<%= yield %>
+
+    	<div class="push"></div>
+
+  	</div>
 
     <%= render "layouts/footer" %>
+
     <%= javascript_include_tag "application" %>
 
   </body>
