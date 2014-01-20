@@ -66,11 +66,6 @@ html, body{
 	width: 100%;
 }
 
-.sliderheight{
-	max-height: 300px;
-	height: 300px;
-}
-
 .offCanvasContent{
 	background-color: #CCE6FF;
 }
@@ -90,7 +85,11 @@ html, body{
 	background-color: #DDD;
 }
 
-.footer, .push{
+.push{
+
+}
+
+.footer{
 	height: 250px;
 }
 

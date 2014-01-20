@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+	</head>
+
+	<h5><%= @head %></h5>
+
+	<body>
+
+		<p><%= @body %></p>
+
+		<hr />
+		<h6><%= @email.first_name %> <%= @email.second_name %></h6>
+		<h6><%= @email.telephone_number %></h6>
+		<h6><%= @email.email %></h6>
+		<h6><%= @url %></h6>
+	</body>
+</html>
