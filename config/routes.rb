@@ -1,11 +1,12 @@
 SageoTechnologies::Application.routes.draw do
   #get "pages/home"
   root 'pages#home'
-  get "pages/about"
-  get "pages/services"
-  get "pages/clientsAndProjects"
-  get "pages/contactUs"
-  get "pages/partners"
+  get "/about",													:to => "pages#about"
+  get "/services",											:to => "pages#services"
+  get "/clientsAndProjects",						:to => "pages#clientsAndProjects"
+  get "/contactUs",											:to => "pages#contactUs"
+  get "/partners",											:to => "pages#partners"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
