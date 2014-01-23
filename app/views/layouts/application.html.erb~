@@ -18,6 +18,15 @@
   	<div id="radial-center" >
 
 			<%= render "layouts/header" %>
+			
+			<% flash.each do |name, msg| %>
+  			<% if msg.is_a?(String) %>
+  				<div class="alert-box <%= name == :notice ? "success" : "alert" %>">
+  					<a class="close" data-dismiss="alert">&#215;</a>
+  					<%= content_tag :div, msg, :id => "flash_#{name}"%>
+  				</div>
+  			<% end %>
+  		<% end %>
 
     	<%= yield %>
 
@@ -60,13 +69,6 @@
 </script>
 <!-- AddThis Smart Layers END -->
 
-
-<script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation/foundation.js"></script>
-  <script src="js/foundation/foundation.clearing.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
 
 
 

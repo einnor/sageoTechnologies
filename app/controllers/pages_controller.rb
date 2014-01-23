@@ -28,6 +28,14 @@ class PagesController < ApplicationController
 
   def create
 		@enquiry = Enquiry.new(enquiry_params)
+		
+		if @enquiry.save
+  		if EnquiryMailer.enquiry_mail(@enquiry).deliver
+  			redirect_to root_path, :notice => "The enquiry was successfully sent."
+  		end
+  	else
+  		render 'new'
+  	end
   end
 
   private

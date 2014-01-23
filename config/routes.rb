@@ -1,4 +1,11 @@
 SageoTechnologies::Application.routes.draw do
+  get "enquiries/index"
+  get "enquiries/new"
+  get "enquiries/show"
+  get "enquiries/edit"
+  get "enquiries/update"
+  get "enquiries/create"
+  get "enquiries/destroy"
   devise_for :admins
   #get "pages/home"
   root 'pages#home'
