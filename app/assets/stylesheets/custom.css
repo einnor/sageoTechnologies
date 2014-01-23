@@ -134,7 +134,7 @@ textarea#message_area{
   background-repeat: repeat-x;
 
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A1A1A), to(	#666666));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A1A1A);, to(	#666666));
 
   /* Safari 5.1, Chrome 10+ */
   background: -webkit-linear-gradient(top, 	#666666, #1A1A1A);
