@@ -7,7 +7,7 @@
 		<div class="small-3 columns">
 			<!--Partners-->
 			<p class="footerheader">
-				Partners
+				Partners<br />
 				<%= link_to "Partner 1", "#" %> <br />
 				<%= link_to "Partner 2", "#" %> <br />
 				<%= link_to "Partner 3", "#" %> <br />
@@ -22,7 +22,7 @@
 				<%= link_to "Services", services_path %> <br />
 				<%= link_to "Clients And Projects", clientsAndProjects_path %> <br />
 				<%= link_to "Partners", partners_path %> <br />
-				<%= link_to "Contact Us", contactUs_path %> <br />
+				<%= link_to "Contact Us", new_enquiries_path %> <br />
 			</p>
 		</div>
 		<div class="small-3 columns contacts round">

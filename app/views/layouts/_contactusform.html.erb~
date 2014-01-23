@@ -1,4 +1,4 @@
-<%= form_for :enquiry do |f| %>
+<%= form_for @enquiry do |f| %>
         		<fieldset class="round"  style="background-color: #FFFFFF; margin-top: 20px;">
         			<legend>E-mail</legend>
         			<div class="row">
@@ -56,7 +56,7 @@
         			</div>
         			
         			<%= f.label :body %><br />
-        			<%= f.text_area :body, :placeholder => "The body of your message goes here" %> <br />
+        			<%= f.text_area :body, :placeholder => "The body of your message goes here", :id => "message_area" %> <br />
         			<br />
         			<%= f.submit "Submit Enquiry", :class => "button radius" %>
         		</fieldset>

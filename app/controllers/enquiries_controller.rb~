@@ -39,15 +39,4 @@ class EnquiriesController < ApplicationController
   	@enquiry.destroy
   	redirect_to enquiries_path, :notice => "The enquiry was successfully deleted."
   end
-  
-  private
-
-  def set_enquiry
-  	@enquiry = Enquiry.new
-  end
-
-  def enquiry_params
-  	params.require(:enquiry).permit(:first_name, :second_name, :telephone_number, :email,
-  	:confirmation_email, :subject, :body)
-  end
 end

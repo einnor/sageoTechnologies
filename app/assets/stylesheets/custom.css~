@@ -117,12 +117,6 @@ textarea#message_area{
 	height: 220px;
 }
 
-.centerform{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .push{
 	height: 100px;
 }
@@ -234,6 +228,48 @@ p.footerheader{
 	font: 90% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	text-align: left;
 	color: #DDD;
-
-
 }
+
+/* Error Messages */
+div.field, div.actions{
+	margin: 10px;
+}
+
+.field_with_errors{
+	margin-top: 10px;
+	padding: 2px;
+	background-color: red;
+	display: table;
+}
+
+.field_with_errors label{
+	color: #fff;
+}
+
+#error_explanation{
+	width: 400px;
+	border: 2px solid red;
+	padding: 7px;
+	padding-bottom: 12px;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+}
+
+#error_explanation h2{
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 12px;
+	margin: -7px;
+	background-color: #c00;
+	color: #fff;
+}
+
+#error_explanation ul li{
+	font-size: 12px;
+	list-style: square;
+}
+
+
+
+

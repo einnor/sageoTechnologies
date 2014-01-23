@@ -1,11 +1,6 @@
 SageoTechnologies::Application.routes.draw do
-  get "enquiries/index"
-  get "enquiries/new"
-  get "enquiries/show"
-  get "enquiries/edit"
-  get "enquiries/update"
-  get "enquiries/create"
-  get "enquiries/destroy"
+  
+  resources :enquiries
   devise_for :admins
   #get "pages/home"
   root 'pages#home'
@@ -14,6 +9,7 @@ SageoTechnologies::Application.routes.draw do
   get "/clientsAndProjects",						:to => "pages#clientsAndProjects"
   get "/contactUs",											:to => "pages#contactUs"
   get "/partners",											:to => "pages#partners"
+  get "pages/create"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
