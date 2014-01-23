@@ -1,4 +1,5 @@
 SageoTechnologies::Application.routes.draw do
+  devise_for :admins
   #get "pages/home"
   root 'pages#home'
   get "/about",													:to => "pages#about"

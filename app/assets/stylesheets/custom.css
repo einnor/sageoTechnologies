@@ -70,6 +70,16 @@ html, body{
 	background-color: #CCE6FF;
 }
 
+.headlinebar{
+	background-color: #4D94FF;
+	margin-bottom: 20px;
+}
+
+.infoslider{
+	background-color:#80B2FF;
+	margin: 20px;
+}
+
 .adbar{
 	background-color: #FFFFFF;
 	padding-bottom: 10px;
@@ -81,8 +91,30 @@ html, body{
 	padding-bottom: 10px;
 }
 
+.sidebar{
+	padding: 20px;
+}
+
+.tab{
+	background-color: #0066FF;
+
+}
+
+.abouttabs{
+	padding: 20px;
+}
+
+.panels{
+	background-color: #CCE6FF;
+
+}
+
 .contacts{
 	background-color: #DDD;
+}
+
+textarea#message_area{
+	height: 220px;
 }
 
 .push{

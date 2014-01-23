@@ -37,6 +37,8 @@ gem "rmagick", "~> 2.13.2"
 
 gem "annotate", "~> 2.5.0"
 
+gem "devise", "~> 3.2.2"
+
 #gem "sunspot_rails", '~> 2.0.0'
 
 #gem "sunspot_solr"

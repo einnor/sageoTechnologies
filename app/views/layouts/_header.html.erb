@@ -26,29 +26,26 @@
         <li><%= link_to "Clients and Projects", clientsAndProjects_path %></li>
         <li><%= link_to "Partners", partners_path %></li>
         <li><a href="#" data-reveal-id="contactUs">Contact Us</a></li>
+        <li>
+        	<a href="#" data-dropdown="drop1">Login as Admin</a>
+        	<div id="drop1" data-dropdown-content class="f-dropdown content">
+        		<form>
+        			<fieldset class="round">
+        				<legend>Login</legend>
+        				<label>Username</label>
+        				<input type="text" placeholder="username..."><br />
+        				<label>Password</label>
+        				<input type="password" placeholder="password..."><br />
+        				<a href="#" class="button tiny radius">Login</a>
+        			</fieldset>
+        		</form>
+        	</div>
+        		
+        	</ul>
+        </li>
         <div id="contactUs" class="reveal-modal round medium" data-revela>
         	<h4>Write To Us</h4>
-        	<%= form_for :enquiry do |f| %>
-        		<fieldset class="round">
-        			<legend>E-mail</legend>
-        			<%= f.label :first_name %><br />
-        			<%= f.text_field :first_name, :placeholder => "Enter your first name" %> <br />
-        			<%= f.label :second_name %><br />
-        			<%= f.text_field :second_name, :placeholder => "Enter your second name" %> <br />
-        			<%= f.label :telephone_number %><br />
-        			<%= f.text_field :telephone_number, :placeholder => "Enter your telephone number" %> <br />
-        			<%= f.label :email %><br />
-        			<%= f.email_field :email, :placeholder => "Enter your e-mail address" %> <br />
-        			<%= f.label :confirmation_email %><br />
-        			<%= f.text_field :confirmation_email, :placeholder => "Enter your e-mail again" %> <br />
-        			<%= f.label :subject %><br />
-        			<%= f.text_field :subject, :placeholder => "Enter the subject of your e-mail" %> <br />
-        			<%= f.label :body %><br />
-        			<%= f.text_area :body, :placeholder => "The body of your message goes here" %> <br />
-        			<br />
-        			<%= f.submit "Submit Enquiry", :class => "button radius" %>
-        		</fieldset>
-        	<% end %>
+        	<%= render "layouts/contactusform"%>
         	<a class="close-reveal-modal">&#215;</a>
         </div>
       </ul>

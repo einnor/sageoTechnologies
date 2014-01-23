@@ -1,2 +1,28 @@
-<h1>Pages#contactUs</h1>
-<p>Find me in app/views/pages/contactUs.html.erb</p>
+<div class="row">
+	<div class="small-7 columns round">
+		
+		<%= render "layouts/contactusform" %>
+
+	</div>
+	
+	
+	<div class="small-5 columns round" style="margin-top:20px;">
+	
+		<%= render "layouts/searchfield" %>
+		
+		<form>
+			<fieldset class="round" style="background-color: #FFFFFF; margin-top: 20px;">
+				<legend>Additional contact information</legend>
+				<label>+254-1234567890</label> <br />
+				<label>sageotechnologies@sageo.com</label> <br /> 
+				<label>@sageotechnologies</label> <br />
+				<label>Sageo Technologies</label> <br />
+			</fieldset>
+		</form>
+		
+		<%= render "layouts/socialbar"%>
+		
+	</div>
+	
+	
+</div>
