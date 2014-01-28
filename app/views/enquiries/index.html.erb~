@@ -12,7 +12,7 @@
 			<p class="enquiries"><%= enquiry.created_at %></p>
 		</div>
 		<div class="small-2 columns">
-			<p class="enquiries">
+			<p>
 				<%= link_to "Show", enquiry %> | 
 				<%= link_to "Destroy", enquiry, :confirm => "Are you sure you want to delete this email?", :method => :delete %>
 			</p>

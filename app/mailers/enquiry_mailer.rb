@@ -5,7 +5,7 @@ class EnquiryMailer < ActionMailer::Base
   	@email = email
   	@first_name = email.first_name
   	@second_name = email.second_name
-  	@telephone = email.telephone
+  	@telephone = email.telephone_number
   	@url = "http://www.sageotechnologies-herokuapp.com"
   	@subject = email.subject
   	@body = email.body

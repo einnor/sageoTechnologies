@@ -223,6 +223,18 @@ p{
 
 }
 
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.enquiries{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: left;
+}
+
 p.footerheader{
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	font: 90% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;

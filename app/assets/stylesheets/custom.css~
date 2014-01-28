@@ -130,8 +130,8 @@ textarea#message_area{
 	border-top: thin solid #000000
 
 	/*Gradient*/
-  background-color: #1A1A1A;
-  background-repeat: repeat-x;
+  /*background-color: #1A1A1A;
+  background-repeat: repeat-x;*/
 
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A1A1A), to(	#666666));
@@ -221,6 +221,12 @@ p{
 	line-height: 25px;
 	padding: 20px;
 
+}
+
+p.enquiries{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: left;
 }
 
 p.footerheader{

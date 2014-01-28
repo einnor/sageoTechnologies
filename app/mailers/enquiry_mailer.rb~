@@ -3,6 +3,9 @@ class EnquiryMailer < ActionMailer::Base
 
   def enquiry_mail(email)
   	@email = email
+  	@first_name = email.first_name
+  	@second_name = email.second_name
+  	@telephone = email.telephone
   	@url = "http://www.sageotechnologies-herokuapp.com"
   	@subject = email.subject
   	@body = email.body
