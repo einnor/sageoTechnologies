@@ -97,7 +97,6 @@ html, body{
 
 .tab{
 	background-color: #0066FF;
-
 }
 
 .abouttabs{
@@ -140,7 +139,7 @@ textarea#message_area{
 }
 
 .footer{
-	height: 220px;
+	height: 230px;
 }
 
 #footerdesign{
@@ -208,7 +207,6 @@ textarea#message_area{
 .logo{
 	padding-top: 15px;
 	padding-bottom: 10px;
-
 }
 
 
@@ -220,7 +218,7 @@ textarea#message_area{
 
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFFFFF), to(#E0F0FF));
-#radial-center {
+  
   /* fallback */
   background-color: #E0F0FF;
   background-position: center center;
@@ -238,16 +236,6 @@ textarea#message_area{
   /* IE 10 */
   background: -ms-radial-gradient(circle, #FFFFFF, #E0F0FF);
 }
-  /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-radial-gradient(circle, #FFFFFF, #E0F0FF);
-
-  /* Firefox 3.6+ */
-  background: -moz-radial-gradient(circle, #FFFFFF, #E0F0FF);
-
-  /* IE 10 */
-  background: -ms-radial-gradient(circle, #FFFFFF, #E0F0FF);
-}
-
 
 h4{
 	text-indent: 10px;
@@ -270,7 +258,6 @@ p{
 	text-align: left;
 	line-height: 25px;
 	padding: 20px;
-
 }
 
 .center{
