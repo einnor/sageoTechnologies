@@ -1,0 +1,16 @@
+<div class="partners" style="margin-top: 20px;">
+	<div class="row">
+		<div class="small-3 columns">
+			<%= image_tag "awslogo.png"%>
+		</div>
+		<div class="small-3 columns">
+			<%= image_tag "citrixsolutionlogo.png"%>
+		</div>
+		<div class="small-3 columns">
+			<%= image_tag "microsoftpartnerlogo1.jpg"%>
+		</div>
+		<div class="small-3 columns">
+			<%= image_tag "symanteclogo.png"%>
+		</div>
+	</div>
+</div>

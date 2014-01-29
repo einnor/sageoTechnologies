@@ -104,9 +104,23 @@ html, body{
 	padding: 20px;
 }
 
+#whatweoffer {
+	list-style-type: disc;
+	background-color: #D6D6FF;
+	padding: 20px;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	line-height: 25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
 .panels{
 	background-color: #CCE6FF;
-
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 85% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	line-height: 30px;
 }
 
 .contacts{
@@ -117,36 +131,72 @@ textarea#message_area{
 	height: 220px;
 }
 
+.partners{
+	background-color: #FFFFFF;
+}
+
 .push{
-	height: 100px;
+	height: 0px;
 }
 
 .footer{
-	height: 250px;
+	height: 220px;
 }
 
 #footerdesign{
-	padding: 25px;
-	border-top: thin solid #000000
+	padding: 15px;
 
 	/*Gradient*/
   /*background-color: #1A1A1A;
   background-repeat: repeat-x;*/
 
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A1A1A), to(	#666666));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A1A1A), to(	#808080));
 
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #666666, #1A1A1A);
+  background: -webkit-linear-gradient(top, #808080, #1A1A1A);
 
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, 	#666666, #1A1A1A);
+  background: -moz-linear-gradient(top, 	#808080, #1A1A1A);
 
   /* IE 10 */
-  background: -ms-linear-gradient(top, 	#666666, #1A1A1A);
+  background: -ms-linear-gradient(top, 	#808080, #1A1A1A);
 
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #666666, #1A1A1A);
+  background: -o-linear-gradient(top, #808080, #1A1A1A);
+}
+
+#navcontainer{
+	text-align: center;
+	float:none;
+}
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+}
+
+#navcontainer ul li{
+	display: inline;
+	position: relative;
+}
+
+#navcontainer ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #444;
+}
+
+#navcontainer ul li a:hover{
+	color: 	#7070FF;
+}
+
+.copyright{
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 }
 
  .round{
@@ -221,6 +271,12 @@ p{
 	line-height: 25px;
 	padding: 20px;
 
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p.enquiries{

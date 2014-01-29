@@ -1,40 +1,55 @@
-<div class="footer" id="footerdesign" >
+<div class="partners" style="margin-top: 20px;">
 	<div class="row">
 		<div class="small-3 columns">
-			<!--Copyright-->
-			<p class="footerheader">Copyright</p>
+			<%= link_to (image_tag "awslogo.png"), "#" %>
 		</div>
 		<div class="small-3 columns">
-			<!--Partners-->
-			<p class="footerheader">
-				Partners<br />
-				<%= link_to "Partner 1", "#" %> <br />
-				<%= link_to "Partner 2", "#" %> <br />
-				<%= link_to "Partner 3", "#" %> <br />
-				<%= link_to "Partner 4", "#" %> <br />
-				<%= link_to "Partner 5", "#" %>
-			</p>
+			<%= link_to (image_tag "citrixsolutionlogo.png"), "#" %>
 		</div>
 		<div class="small-3 columns">
-			<!--Menu-->
-			<p class="footerheader">
-				Menu <br />
-				<%= link_to "Services", services_path %> <br />
-				<%= link_to "Clients And Projects", clientsAndProjects_path %> <br />
-				<%= link_to "Partners", partners_path %> <br />
-				<%= link_to "Contact Us", new_enquiry_path %> <br />
-			</p>
+			<%= link_to (image_tag "microsoftpartnerlogo1.jpg"), "#" %>
 		</div>
-		<div class="small-3 columns contacts round">
-			<!--Contacts-->
-			<h5>Contacts</h5>
-			<p>
-				Tel No. <br />
-				Email address <br />
-				Facebook page <br />
-				Twitter handle <br />
-				YouTube channel <br />
-			</p>
+		<div class="small-3 columns">
+			<%= link_to (image_tag "symanteclogo.png"), "#"%>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="footer" id="footerdesign">
+	<div class="row" id="navcontainer">
+		<div class="small=9 columns">
+			<div class="row" id="navcontainer">
+				<div class="small-12 columns">
+					<ul class="">
+						<li><%= link_to "Home", root_path %></li>
+						<li><%= link_to "About Us", about_path %></li>
+						<li><%= link_to "Services", services_path %> </li>
+						<li><%= link_to "Clients And Projects", clientsAndProjects_path %> </li>
+						<li><%= link_to "Partners", partners_path %> </li>
+						<li><%= link_to "Contact Us", new_enquiry_path %> </li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<!--Partners-->
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<p class="copyright" style="text-align: center">&copy;2014 Sageo Technologies Limited. All rights rerserved.
+						<%= link_to (image_tag "sageominilogo.png", :class => "round"), root_path %>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="small-3 columns">
+			
 		</div>
 	</div>
 </div>

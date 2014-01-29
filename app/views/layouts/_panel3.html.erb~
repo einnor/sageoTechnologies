@@ -1,0 +1,40 @@
+<h3 style="text-align: center;">PARTNERSHIPS</h3>
+
+<p class="panels round">
+	Sageo Technologies Limited is in partnership with several companies along the line of offering quality services to its customers. These partners inlcude:
+</p>
+
+<ul id="whatweoffer">
+	<li>Microsoft</li>
+	<li>Symantec</li>
+	<li>Amazon</li>
+	<li>Citrix</li>
+	<li>HP</li>
+</ul>
+
+
+<div class="row">
+	<div class="small-6 columns">
+		<a class="th [radius]" href="#">
+			<%= image_tag "microsoftpartnerlogo1.jpg" %>
+		</a>
+	</div>
+	<div class="small-6 columns">
+		<a class="th [radius]" href="#">
+			<%= image_tag "symanteclogo.png" %>
+		</a>
+	</div>
+</div>
+
+<div class="row" style="margin-top: 20px;">
+	<div class="small-6 columns">
+		<a class="th [radius]" href="#">
+			<%= image_tag "citrixsolutionlogo.png" %>
+		</a>
+	</div>
+	<div class="small-6 columns">
+		<a class="th [radius]" href="#">
+			<%= image_tag "awslogo.png" %>
+		</a>
+	</div>
+</div>

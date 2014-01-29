@@ -17,7 +17,7 @@
 	</div>
 </div>
 
-<%= link_to "Log out", destroy_admin_session_path, :method => :delete %>
+
 <div class="row">
 	<div class="small-9 columns">
 		<div class="row">

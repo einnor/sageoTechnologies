@@ -59,7 +59,7 @@
   <div class="header hide-for-small">
     <div class="row">
       <div class="large-7 columns logo">
-        <%= link_to(image_tag "logo.jpg", :class => "round logo") %>
+        <%= link_to(image_tag "sageologo.png", :class => "round") %>
 
       </div>
       <div class="large-5 columns">
@@ -68,9 +68,17 @@
           <li><%= link_to "About Us", about_path %></li>
           <li><a href="#" class="button tiny round" data-reveal-id="myModal" >Contact</a></li>
 
-          <div id="myModal" class="reveal-modal round medium" data-reveal >
-          	<h4>Our Contacts</h4>
-          	<p>Sageo Contact Information goes here.</p>
+          <div id="myModal" class="reveal-modal round small" data-reveal >
+          	<form>
+          		<fieldset class="radius">
+          			<legend>Our Contacts</legend>
+          			<label>+254 020 2345423</label> <br />
+								<label>+254 0722-706701</label> <br />
+								<label>info@sageotech.com</label> <br /> 
+								<label>Twitter: @sageotechnologies</label> <br />
+								<label>Facebook: Sageo Technologies</label> <br />
+          		</fieldset>
+          	</form>
           	<a class="close-reveal-modal">&#215;</a>
           </div>
         </ul>
