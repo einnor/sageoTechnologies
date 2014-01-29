@@ -16,6 +16,8 @@
 //= require turbolinks
 //= require_tree .
 
+@import "foundation_and_overrides";
+
 $(function(){ $(document).foundation(); });
 
 // Can also be used with $(document).ready()
