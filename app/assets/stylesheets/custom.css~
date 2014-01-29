@@ -249,7 +249,6 @@ h5{
 	text-align: center;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	font: 90% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	text
 }
 
 p{
@@ -318,7 +317,5 @@ div.field, div.actions{
 	font-size: 12px;
 	list-style: square;
 }
-
-
 
 
