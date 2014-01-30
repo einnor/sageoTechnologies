@@ -14,9 +14,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.flexslider
+//= require jquer.flexslider-min
 //= require_tree .
 
-@import "foundation_and_overrides";
 
 $(function(){ $(document).foundation(); });
 
